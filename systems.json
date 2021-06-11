@@ -1,0 +1,50 @@
+[
+	{
+		"id": "ms_blinkspace_periscope",
+		"name": "BLINKSPACE PERISCOPE",
+		"type": "System",
+		"sp": 2,
+		"tags": [
+			{
+				"id": "tg_unique"
+			},
+			{
+				"id": "tg_limited",
+				"val": 1
+			},
+			{
+				"id": "tg_exotic"
+			}
+		],
+		"source": "EXOTIC",
+		"actions": [
+			{
+				"name": "Pierce the Veil",
+				"activation": "Full",
+				"detail": "You thrust a probe through blinkspace to any realspace point within <em>n</em>. Until the end of the scene, you have line of sight, but not line of effect, to any space within <em>m</em> of that point. The action fails and the limited use is wasted if this point would be inside a character, object, or other obstruction."
+			}
+		],
+		"description": "Trench stinks of shallow buried dead<br/>Where Tom stands at the periscope,<br/>Tired out. After nine months he’s shed<br/>All fear, all faith, all hate, all hope.<br/>-Robert Graves, &quot;Through the Periscope&quot;",
+		"data_type": "system",
+		"aptitude": {}
+	},
+	{
+		"id": "ms_phased_array_nanogravity_detector",
+		"name": "PHASED ARRAY NANOGRAVITY DETECTOR",
+		"type": "System",
+		"sp": 1,
+		"tags": [
+			{
+				"id": "tg_unique"
+			},
+			{
+				"id": "tg_exotic"
+			}
+		],
+		"source": "EXOTIC",
+		"effect": "Characters and objects do not benefit from invisibility against you.",
+		"description": "Data from a phased array of nanogravity detectors are fused with other sensors to detect things that are otherwise cloaked.",
+		"data_type": "system",
+		"aptitude": {}
+	}
+]
