@@ -1,0 +1,35 @@
+[
+	{
+		"id": "mw_exo_wraithverge",
+		"name": "WRAITHVERGE",
+		"mount": "Superheavy",
+		"source": "EXOTIC",
+		"type": "Cannon",
+		"range": [
+			{
+				"type": "Range",
+				"val": 50
+			}
+		],
+		"damage": [
+			{
+				"type": "Kinetic",
+				"val": "4d6"
+			}
+		],
+		"on_attack": "Firing WRAITHVERGE is extremely taxing on your frame. Immediately reduce structure and stress by one. If you are already at 1 structure or stress, you may not fire WRAITHVERGE.",
+		"on_hit": "Create a Line 5 path from (but not including) your target, continuing in the same direction as the attack. Characters in this path take 5 Kinetic Damage.",
+		"description": "A terrifying weapon leftover from a war that never was. <b>MECHANICS ARE ALL TBD. BUYER BEWARE.</b>",
+		"tags": [
+			{
+				"id": "tg_loading"
+			},
+			{
+				"id": "tg_ordnance"
+			},
+			{
+				"id": "tg_exotic"
+			}
+		]
+	}
+]
