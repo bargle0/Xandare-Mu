@@ -1,8 +1,10 @@
-[{
+[
+  {
     "id": "wm_exo_charge_bracers",
     "name": "CHARGE BRACERS",
     "sp": 2,
-    "tags": [{
+    "tags": [
+      {
         "id": "tg_exotic"
       },
       {
@@ -15,4 +17,28 @@
     "source": "EXOTIC",
     "effect": "Choose one MELEE weapon: On your turn, this weapon deals +2 bonus damage if you have already taken the Boost action.",
     "description": "Looks like you've learned the ways of Death-Kwon-Do."
-}]
+  },
+  {
+    "id": "wm_exo_vorpal_runes",
+    "name": "VORPAL RUNES",
+    "sp": 2,
+    "tags": [
+      {
+        "id": "tg_exotic"
+      },
+      {
+        "id": "tg_unique"
+      }
+    ],
+    "allowed_types": [
+      "Cannon",
+      "CQB",
+      "Launcher",
+      "Melee",
+      "Nexus",
+      "Rifle"
+    ],
+    "source": "EXOTIC",
+    "effect": "Choose one weapon: <em>something happens when you roll a crit or a natural 20</em>"
+  }
+]
