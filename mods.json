@@ -39,6 +39,7 @@
       "Rifle"
     ],
     "source": "EXOTIC",
-    "effect": "Choose one weapon: <em>something happens when you roll a crit or a natural 20</em>"
+    "effect": "Choose one weapon: <em>something happens when you roll a crit or a natural 20</em>",
+    "description": "You bear an arcane evocation to ... <em>something</em> ... on your weapon."
   }
 ]

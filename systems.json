@@ -46,5 +46,24 @@
 		"description": "Data from a phased array of nanogravity detectors are fused with other sensors to detect things that are otherwise cloaked.",
 		"data_type": "system",
 		"aptitude": {}
+	},
+	{
+		"id": "ms_paracausal_wings",
+		"name": "PARACAUSAL WINGS",
+		"type": "System",
+		"sp": 1,
+		"tags": [
+			{
+				"id": "tg_unique"
+			},
+			{
+				"id": "tg_exotic"
+			}
+		],
+		"source": "EXOTIC",
+		"effect": "<em>You fly or something? I can't remember.</em>",
+		"description": "They're made of stone, but you can fly. I dunno, the boys in the lab are just as confused as we are. Maybe don't think about it too much.",
+		"data_type": "system",
+		"aptitude": {}
 	}
 ]
